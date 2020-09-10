@@ -6,7 +6,6 @@ import java.util.List;
 public class 找子集_位运算法 {
 
 
-
     public static List<List<Integer>> subsets(int[] nums) {
         //所有的集合个数
         int allSet = 1<<nums.length;
